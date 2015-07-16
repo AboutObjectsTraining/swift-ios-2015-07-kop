@@ -11,6 +11,8 @@
 		AB47B7311B568D8E00A165EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB47B7301B568D8E00A165EF /* Images.xcassets */; };
 		AB47B7401B568D8E00A165EF /* CoolnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB47B73F1B568D8E00A165EF /* CoolnessTests.swift */; };
 		AB47B74C1B56CF4600A165EF /* CoolViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB47B74B1B56CF4600A165EF /* CoolViewCell.swift */; };
+		AB57F84C1B57DAFB00CE731D /* CoolViewCell+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB57F84B1B57DAFB00CE731D /* CoolViewCell+Animation.swift */; };
+		AB57F84E1B581AE700CE731D /* CoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB57F84D1B581AE700CE731D /* CoolViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,8 @@
 		AB47B73E1B568D8E00A165EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB47B73F1B568D8E00A165EF /* CoolnessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolnessTests.swift; sourceTree = "<group>"; };
 		AB47B74B1B56CF4600A165EF /* CoolViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoolViewCell.swift; sourceTree = "<group>"; };
+		AB57F84B1B57DAFB00CE731D /* CoolViewCell+Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CoolViewCell+Animation.swift"; sourceTree = "<group>"; };
+		AB57F84D1B581AE700CE731D /* CoolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoolViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 			children = (
 				AB47B7291B568D8E00A165EF /* AppDelegate.swift */,
 				AB47B74B1B56CF4600A165EF /* CoolViewCell.swift */,
+				AB57F84B1B57DAFB00CE731D /* CoolViewCell+Animation.swift */,
+				AB57F84D1B581AE700CE731D /* CoolViewController.swift */,
 				AB47B7301B568D8E00A165EF /* Images.xcassets */,
 				AB47B7271B568D8E00A165EF /* Supporting Files */,
 			);
@@ -204,8 +210,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB57F84C1B57DAFB00CE731D /* CoolViewCell+Animation.swift in Sources */,
 				AB47B72A1B568D8E00A165EF /* AppDelegate.swift in Sources */,
 				AB47B74C1B56CF4600A165EF /* CoolViewCell.swift in Sources */,
+				AB57F84E1B581AE700CE731D /* CoolViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +390,7 @@
 				AB47B7451B568D8E00A165EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB47B7461B568D8E00A165EF /* Build configuration list for PBXNativeTarget "CoolnessTests" */ = {
 			isa = XCConfigurationList;
@@ -390,6 +399,7 @@
 				AB47B7481B568D8E00A165EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

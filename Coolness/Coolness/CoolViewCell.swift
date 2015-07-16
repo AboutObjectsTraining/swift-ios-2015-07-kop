@@ -47,6 +47,11 @@ class CoolViewCell: UIView
         super.init(coder: aDecoder)
         configureLayer()
     }
+    
+//    convenience init(frame: CGRect, color: UIColor = UIColor.blueColor()) {
+//        self.backgroundColor = color
+//        super.init(frame: frame)
+//    }
 }
 
 
@@ -81,6 +86,12 @@ extension CoolViewCell
     {
         self.highlighted = true
         self.superview?.bringSubviewToFront(self)
+        
+        let touch: UITouch = touches.first as! UITouch
+        
+        if (touch.tapCount == 2) {
+            animateBounceWithSize(CGSize(width: 120, height: 240))
+        }
     }
     
     override func touchesMoved(touches: Set<NSObject>, withEvent event: UIEvent)
