@@ -6,6 +6,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="Cool View Controller" customClass="CoolViewController" customModule="Coolness2" customModuleProvider="target">
             <connections>
+                <outlet property="coolView" destination="bmj-gy-oCp" id="hoM-Nc-dwi"/>
+                <outlet property="textField" destination="gmJ-YK-INA" id="U4X-2d-9pd"/>
                 <outlet property="view" destination="vg7-vT-ieN" id="a2H-sE-mSV"/>
             </connections>
         </placeholder>
@@ -13,8 +15,41 @@
         <view contentMode="scaleToFill" id="vg7-vT-ieN" userLabel="Background View">
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="1qc-Bu-VYF" userLabel="Accessory View">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="66"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter some text" minimumFontSize="12" clearButtonMode="whileEditing" id="gmJ-YK-INA">
+                            <rect key="frame" x="8" y="28" width="266" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="yes"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="Mou-oQ-OMZ"/>
+                            </connections>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Dkc-6f-N9x">
+                            <rect key="frame" x="282" y="28" width="30" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Add">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="addCoolView" destination="-1" eventType="touchUpInside" id="WYY-jh-1qv"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="0.80000000000000004" colorSpace="calibratedWhite"/>
+                </view>
+                <view clipsSubviews="YES" contentMode="scaleToFill" id="bmj-gy-oCp" userLabel="Cool View">
+                    <rect key="frame" x="0.0" y="66" width="320" height="502"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" white="1" alpha="0.59999999999999998" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
             <color key="backgroundColor" red="0.50196081399917603" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-            <point key="canvasLocation" x="1026" y="436"/>
+            <point key="canvasLocation" x="1304" y="356"/>
         </view>
     </objects>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

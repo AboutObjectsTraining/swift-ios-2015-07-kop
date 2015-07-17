@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB39F5EF1B594758005267D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB39F5EE1B594758005267D8 /* AppDelegate.swift */; };
+		AB39F5F61B594758005267D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB39F5F51B594758005267D8 /* Images.xcassets */; };
+		AB39F5F91B594758005267D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB39F5F71B594758005267D8 /* LaunchScreen.xib */; };
+		AB39F6051B594758005267D8 /* ReadingListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB39F6041B594758005267D8 /* ReadingListTests.swift */; };
+		AB39F60F1B59482A005267D8 /* ReadingList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB39F60E1B59482A005267D8 /* ReadingList.storyboard */; };
+		AB39F6111B597CB3005267D8 /* ReadingListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB39F6101B597CB3005267D8 /* ReadingListController.swift */; };
+		AB39F6601B5984AF005267D8 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB39F6461B5984AF005267D8 /* Author.swift */; };
+		AB39F6611B5984AF005267D8 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB39F6471B5984AF005267D8 /* Book.swift */; };
+		AB39F6621B5984AF005267D8 /* BooksAndAuthors.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB39F6481B5984AF005267D8 /* BooksAndAuthors.plist */; };
+		AB39F6631B5984AF005267D8 /* Austen.png in Resources */ = {isa = PBXBuildFile; fileRef = AB39F64A1B5984AF005267D8 /* Austen.png */; };
+		AB39F6641B5984AF005267D8 /* Bacon.png in Resources */ = {isa = PBXBuildFile; fileRef = AB39F64B1B5984AF005267D8 /* Bacon.png */; };
+		AB39F6651B5984AF005267D8 /* Carroll.png in Resources */ = {isa = PBXBuildFile; fileRef = AB39F64C1B5984AF005267D8 /* Carroll.png */; };
+		AB39F6661B5984AF005267D8 /* Dostoevsky.png in Resources */ = {isa = PBXBuildFile; fileRef = AB39F64D1B5984AF005267D8 /* Dostoevsky.png */; };
+		AB39F6671B5984AF005267D8 /* Eliot.png in Resources */ = {isa = PBXBuildFile; fileRef = AB39F64E1B5984AF005267D8 /* Eliot.png */; };
+		AB39F6681B5984AF005267D8 /* Emerson.png in Resources */ = {isa = PBXBuildFile; fileRef = AB39F64F1B5984AF005267D8 /* Emerson.png */; };
+		AB39F6691B5984AF005267D8 /* Hemingway.png in Resources */ = {isa = PBXBuildFile; fileRef = AB39F6501B5984AF005267D8 /* Hemingway.png */; };
+		AB39F66A1B5984AF005267D8 /* Milne.png in Resources */ = {isa = PBXBuildFile; fileRef = AB39F6511B5984AF005267D8 /* Milne.png */; };
+		AB39F66B1B5984AF005267D8 /* More.png in Resources */ = {isa = PBXBuildFile; fileRef = AB39F6521B5984AF005267D8 /* More.png */; };
+		AB39F66C1B5984AF005267D8 /* Newton.png in Resources */ = {isa = PBXBuildFile; fileRef = AB39F6531B5984AF005267D8 /* Newton.png */; };
+		AB39F66D1B5984AF005267D8 /* NoImage.png in Resources */ = {isa = PBXBuildFile; fileRef = AB39F6541B5984AF005267D8 /* NoImage.png */; };
+		AB39F66E1B5984AF005267D8 /* Shakespeare.png in Resources */ = {isa = PBXBuildFile; fileRef = AB39F6551B5984AF005267D8 /* Shakespeare.png */; };
+		AB39F66F1B5984AF005267D8 /* Thoreau.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB39F6561B5984AF005267D8 /* Thoreau.jpg */; };
+		AB39F6701B5984AF005267D8 /* Tolstoy.png in Resources */ = {isa = PBXBuildFile; fileRef = AB39F6571B5984AF005267D8 /* Tolstoy.png */; };
+		AB39F6711B5984AF005267D8 /* Twain.png in Resources */ = {isa = PBXBuildFile; fileRef = AB39F6581B5984AF005267D8 /* Twain.png */; };
+		AB39F6721B5984AF005267D8 /* Wells.png in Resources */ = {isa = PBXBuildFile; fileRef = AB39F6591B5984AF005267D8 /* Wells.png */; };
+		AB39F6731B5984AF005267D8 /* Whitman.png in Resources */ = {isa = PBXBuildFile; fileRef = AB39F65A1B5984AF005267D8 /* Whitman.png */; };
+		AB39F6741B5984AF005267D8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB39F65B1B5984AF005267D8 /* Info.plist */; };
+		AB39F6751B5984AF005267D8 /* ModelObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB39F65C1B5984AF005267D8 /* ModelObject.swift */; };
+		AB39F6761B5984AF005267D8 /* ReadingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB39F65D1B5984AF005267D8 /* ReadingList.swift */; };
+		AB39F6771B5984AF005267D8 /* ReadingListStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB39F65F1B5984AF005267D8 /* ReadingListStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB39F5FF1B594758005267D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB39F5E11B594758005267D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB39F5E81B594758005267D8;
+			remoteInfo = ReadingList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB39F5E91B594758005267D8 /* ReadingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB39F5ED1B594758005267D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB39F5EE1B594758005267D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB39F5F51B594758005267D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AB39F5F81B594758005267D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AB39F5FE1B594758005267D8 /* ReadingListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadingListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB39F6031B594758005267D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB39F6041B594758005267D8 /* ReadingListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingListTests.swift; sourceTree = "<group>"; };
+		AB39F60E1B59482A005267D8 /* ReadingList.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ReadingList.storyboard; sourceTree = "<group>"; };
+		AB39F6101B597CB3005267D8 /* ReadingListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingListController.swift; sourceTree = "<group>"; };
+		AB39F6461B5984AF005267D8 /* Author.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
+		AB39F6471B5984AF005267D8 /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		AB39F6481B5984AF005267D8 /* BooksAndAuthors.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = BooksAndAuthors.plist; sourceTree = "<group>"; };
+		AB39F64A1B5984AF005267D8 /* Austen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Austen.png; sourceTree = "<group>"; };
+		AB39F64B1B5984AF005267D8 /* Bacon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bacon.png; sourceTree = "<group>"; };
+		AB39F64C1B5984AF005267D8 /* Carroll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Carroll.png; sourceTree = "<group>"; };
+		AB39F64D1B5984AF005267D8 /* Dostoevsky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dostoevsky.png; sourceTree = "<group>"; };
+		AB39F64E1B5984AF005267D8 /* Eliot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Eliot.png; sourceTree = "<group>"; };
+		AB39F64F1B5984AF005267D8 /* Emerson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Emerson.png; sourceTree = "<group>"; };
+		AB39F6501B5984AF005267D8 /* Hemingway.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hemingway.png; sourceTree = "<group>"; };
+		AB39F6511B5984AF005267D8 /* Milne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Milne.png; sourceTree = "<group>"; };
+		AB39F6521B5984AF005267D8 /* More.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = More.png; sourceTree = "<group>"; };
+		AB39F6531B5984AF005267D8 /* Newton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Newton.png; sourceTree = "<group>"; };
+		AB39F6541B5984AF005267D8 /* NoImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NoImage.png; sourceTree = "<group>"; };
+		AB39F6551B5984AF005267D8 /* Shakespeare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shakespeare.png; sourceTree = "<group>"; };
+		AB39F6561B5984AF005267D8 /* Thoreau.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Thoreau.jpg; sourceTree = "<group>"; };
+		AB39F6571B5984AF005267D8 /* Tolstoy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tolstoy.png; sourceTree = "<group>"; };
+		AB39F6581B5984AF005267D8 /* Twain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twain.png; sourceTree = "<group>"; };
+		AB39F6591B5984AF005267D8 /* Wells.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wells.png; sourceTree = "<group>"; };
+		AB39F65A1B5984AF005267D8 /* Whitman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Whitman.png; sourceTree = "<group>"; };
+		AB39F65B1B5984AF005267D8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB39F65C1B5984AF005267D8 /* ModelObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelObject.swift; sourceTree = "<group>"; };
+		AB39F65D1B5984AF005267D8 /* ReadingList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingList.swift; sourceTree = "<group>"; };
+		AB39F65E1B5984AF005267D8 /* ReadingListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadingListModel.h; sourceTree = "<group>"; };
+		AB39F65F1B5984AF005267D8 /* ReadingListStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingListStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB39F5E61B594758005267D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB39F5FB1B594758005267D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB39F5E01B594758005267D8 = {
+			isa = PBXGroup;
+			children = (
+				AB39F6451B5984AF005267D8 /* ReadingListModel */,
+				AB39F5EB1B594758005267D8 /* ReadingList */,
+				AB39F6011B594758005267D8 /* ReadingListTests */,
+				AB39F5EA1B594758005267D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB39F5EA1B594758005267D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB39F5E91B594758005267D8 /* ReadingList.app */,
+				AB39F5FE1B594758005267D8 /* ReadingListTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB39F5EB1B594758005267D8 /* ReadingList */ = {
+			isa = PBXGroup;
+			children = (
+				AB39F5EE1B594758005267D8 /* AppDelegate.swift */,
+				AB39F6101B597CB3005267D8 /* ReadingListController.swift */,
+				AB39F60E1B59482A005267D8 /* ReadingList.storyboard */,
+				AB39F5F51B594758005267D8 /* Images.xcassets */,
+				AB39F5F71B594758005267D8 /* LaunchScreen.xib */,
+				AB39F5EC1B594758005267D8 /* Supporting Files */,
+			);
+			path = ReadingList;
+			sourceTree = "<group>";
+		};
+		AB39F5EC1B594758005267D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB39F5ED1B594758005267D8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB39F6011B594758005267D8 /* ReadingListTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB39F6041B594758005267D8 /* ReadingListTests.swift */,
+				AB39F6021B594758005267D8 /* Supporting Files */,
+			);
+			path = ReadingListTests;
+			sourceTree = "<group>";
+		};
+		AB39F6021B594758005267D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB39F6031B594758005267D8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB39F6451B5984AF005267D8 /* ReadingListModel */ = {
+			isa = PBXGroup;
+			children = (
+				AB39F6461B5984AF005267D8 /* Author.swift */,
+				AB39F6471B5984AF005267D8 /* Book.swift */,
+				AB39F6481B5984AF005267D8 /* BooksAndAuthors.plist */,
+				AB39F6491B5984AF005267D8 /* Images */,
+				AB39F65B1B5984AF005267D8 /* Info.plist */,
+				AB39F65C1B5984AF005267D8 /* ModelObject.swift */,
+				AB39F65D1B5984AF005267D8 /* ReadingList.swift */,
+				AB39F65E1B5984AF005267D8 /* ReadingListModel.h */,
+				AB39F65F1B5984AF005267D8 /* ReadingListStore.swift */,
+			);
+			path = ReadingListModel;
+			sourceTree = "<group>";
+		};
+		AB39F6491B5984AF005267D8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AB39F64A1B5984AF005267D8 /* Austen.png */,
+				AB39F64B1B5984AF005267D8 /* Bacon.png */,
+				AB39F64C1B5984AF005267D8 /* Carroll.png */,
+				AB39F64D1B5984AF005267D8 /* Dostoevsky.png */,
+				AB39F64E1B5984AF005267D8 /* Eliot.png */,
+				AB39F64F1B5984AF005267D8 /* Emerson.png */,
+				AB39F6501B5984AF005267D8 /* Hemingway.png */,
+				AB39F6511B5984AF005267D8 /* Milne.png */,
+				AB39F6521B5984AF005267D8 /* More.png */,
+				AB39F6531B5984AF005267D8 /* Newton.png */,
+				AB39F6541B5984AF005267D8 /* NoImage.png */,
+				AB39F6551B5984AF005267D8 /* Shakespeare.png */,
+				AB39F6561B5984AF005267D8 /* Thoreau.jpg */,
+				AB39F6571B5984AF005267D8 /* Tolstoy.png */,
+				AB39F6581B5984AF005267D8 /* Twain.png */,
+				AB39F6591B5984AF005267D8 /* Wells.png */,
+				AB39F65A1B5984AF005267D8 /* Whitman.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB39F5E81B594758005267D8 /* ReadingList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB39F6081B594758005267D8 /* Build configuration list for PBXNativeTarget "ReadingList" */;
+			buildPhases = (
+				AB39F5E51B594758005267D8 /* Sources */,
+				AB39F5E61B594758005267D8 /* Frameworks */,
+				AB39F5E71B594758005267D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReadingList;
+			productName = ReadingList;
+			productReference = AB39F5E91B594758005267D8 /* ReadingList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB39F5FD1B594758005267D8 /* ReadingListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB39F60B1B594758005267D8 /* Build configuration list for PBXNativeTarget "ReadingListTests" */;
+			buildPhases = (
+				AB39F5FA1B594758005267D8 /* Sources */,
+				AB39F5FB1B594758005267D8 /* Frameworks */,
+				AB39F5FC1B594758005267D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB39F6001B594758005267D8 /* PBXTargetDependency */,
+			);
+			name = ReadingListTests;
+			productName = ReadingListTests;
+			productReference = AB39F5FE1B594758005267D8 /* ReadingListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB39F5E11B594758005267D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "About Objects";
+				TargetAttributes = {
+					AB39F5E81B594758005267D8 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					AB39F5FD1B594758005267D8 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = AB39F5E81B594758005267D8;
+					};
+				};
+			};
+			buildConfigurationList = AB39F5E41B594758005267D8 /* Build configuration list for PBXProject "ReadingList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB39F5E01B594758005267D8;
+			productRefGroup = AB39F5EA1B594758005267D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB39F5E81B594758005267D8 /* ReadingList */,
+				AB39F5FD1B594758005267D8 /* ReadingListTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB39F5E71B594758005267D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB39F6631B5984AF005267D8 /* Austen.png in Resources */,
+				AB39F6641B5984AF005267D8 /* Bacon.png in Resources */,
+				AB39F66C1B5984AF005267D8 /* Newton.png in Resources */,
+				AB39F6651B5984AF005267D8 /* Carroll.png in Resources */,
+				AB39F6691B5984AF005267D8 /* Hemingway.png in Resources */,
+				AB39F6671B5984AF005267D8 /* Eliot.png in Resources */,
+				AB39F5F91B594758005267D8 /* LaunchScreen.xib in Resources */,
+				AB39F66D1B5984AF005267D8 /* NoImage.png in Resources */,
+				AB39F6741B5984AF005267D8 /* Info.plist in Resources */,
+				AB39F6661B5984AF005267D8 /* Dostoevsky.png in Resources */,
+				AB39F66F1B5984AF005267D8 /* Thoreau.jpg in Resources */,
+				AB39F5F61B594758005267D8 /* Images.xcassets in Resources */,
+				AB39F6711B5984AF005267D8 /* Twain.png in Resources */,
+				AB39F66B1B5984AF005267D8 /* More.png in Resources */,
+				AB39F6621B5984AF005267D8 /* BooksAndAuthors.plist in Resources */,
+				AB39F66A1B5984AF005267D8 /* Milne.png in Resources */,
+				AB39F60F1B59482A005267D8 /* ReadingList.storyboard in Resources */,
+				AB39F66E1B5984AF005267D8 /* Shakespeare.png in Resources */,
+				AB39F6731B5984AF005267D8 /* Whitman.png in Resources */,
+				AB39F6701B5984AF005267D8 /* Tolstoy.png in Resources */,
+				AB39F6681B5984AF005267D8 /* Emerson.png in Resources */,
+				AB39F6721B5984AF005267D8 /* Wells.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB39F5FC1B594758005267D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB39F5E51B594758005267D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB39F6611B5984AF005267D8 /* Book.swift in Sources */,
+				AB39F6771B5984AF005267D8 /* ReadingListStore.swift in Sources */,
+				AB39F6601B5984AF005267D8 /* Author.swift in Sources */,
+				AB39F6761B5984AF005267D8 /* ReadingList.swift in Sources */,
+				AB39F6111B597CB3005267D8 /* ReadingListController.swift in Sources */,
+				AB39F6751B5984AF005267D8 /* ModelObject.swift in Sources */,
+				AB39F5EF1B594758005267D8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB39F5FA1B594758005267D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB39F6051B594758005267D8 /* ReadingListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB39F6001B594758005267D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB39F5E81B594758005267D8 /* ReadingList */;
+			targetProxy = AB39F5FF1B594758005267D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB39F5F71B594758005267D8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB39F5F81B594758005267D8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB39F6061B594758005267D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB39F6071B594758005267D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB39F6091B594758005267D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReadingList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB39F60A1B594758005267D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReadingList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AB39F60C1B594758005267D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ReadingListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReadingList.app/ReadingList";
+			};
+			name = Debug;
+		};
+		AB39F60D1B594758005267D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ReadingListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReadingList.app/ReadingList";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB39F5E41B594758005267D8 /* Build configuration list for PBXProject "ReadingList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB39F6061B594758005267D8 /* Debug */,
+				AB39F6071B594758005267D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB39F6081B594758005267D8 /* Build configuration list for PBXNativeTarget "ReadingList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB39F6091B594758005267D8 /* Debug */,
+				AB39F60A1B594758005267D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB39F60B1B594758005267D8 /* Build configuration list for PBXNativeTarget "ReadingListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB39F60C1B594758005267D8 /* Debug */,
+				AB39F60D1B594758005267D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB39F5E11B594758005267D8 /* Project object */;
+}
