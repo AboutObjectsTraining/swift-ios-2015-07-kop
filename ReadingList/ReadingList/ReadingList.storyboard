@@ -7,7 +7,7 @@
         <!--View Book-->
         <scene sceneID="D9U-2L-HWD">
             <objects>
-                <tableViewController id="RK1-X5-IGi" sceneMemberID="viewController">
+                <tableViewController id="RK1-X5-IGi" customClass="ViewBookController" customModule="ReadingList" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="Dii-3A-KBP">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -122,6 +122,12 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="firstNameLabel" destination="H1U-1q-tbD" id="aL6-lY-YXI"/>
+                        <outlet property="lastNameLabel" destination="UHe-xp-YMk" id="uX7-5n-Miy"/>
+                        <outlet property="titleLabel" destination="R72-Tf-aPJ" id="axs-CA-1AB"/>
+                        <outlet property="yearLabel" destination="cpC-hB-A2b" id="5NO-Mn-2oi"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KPG-xz-DzK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -237,7 +243,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="BookSummary" textLabel="QRB-BC-Ag7" detailTextLabel="dcT-eN-5aw" style="IBUITableViewCellStyleSubtitle" id="YvS-xB-XF1">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="BookSummary" textLabel="QRB-BC-Ag7" detailTextLabel="dcT-eN-5aw" imageView="KPA-tT-Zgm" style="IBUITableViewCellStyleSubtitle" id="YvS-xB-XF1">
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YvS-xB-XF1" id="i0h-rh-jeE">
@@ -256,6 +262,9 @@
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="Shakespeare.png" id="KPA-tT-Zgm">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
@@ -312,6 +321,9 @@
             <point key="canvasLocation" x="1289" y="328"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Shakespeare.png" width="155" height="153"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

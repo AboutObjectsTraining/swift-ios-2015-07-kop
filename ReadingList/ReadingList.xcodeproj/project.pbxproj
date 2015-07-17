@@ -37,6 +37,7 @@
 		AB39F6751B5984AF005267D8 /* ModelObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB39F65C1B5984AF005267D8 /* ModelObject.swift */; };
 		AB39F6761B5984AF005267D8 /* ReadingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB39F65D1B5984AF005267D8 /* ReadingList.swift */; };
 		AB39F6771B5984AF005267D8 /* ReadingListStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB39F65F1B5984AF005267D8 /* ReadingListStore.swift */; };
+		AB39F6791B599B7A005267D8 /* ViewBookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB39F6781B599B7A005267D8 /* ViewBookController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		AB39F65D1B5984AF005267D8 /* ReadingList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingList.swift; sourceTree = "<group>"; };
 		AB39F65E1B5984AF005267D8 /* ReadingListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadingListModel.h; sourceTree = "<group>"; };
 		AB39F65F1B5984AF005267D8 /* ReadingListStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingListStore.swift; sourceTree = "<group>"; };
+		AB39F6781B599B7A005267D8 /* ViewBookController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewBookController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 			children = (
 				AB39F5EE1B594758005267D8 /* AppDelegate.swift */,
 				AB39F6101B597CB3005267D8 /* ReadingListController.swift */,
+				AB39F6781B599B7A005267D8 /* ViewBookController.swift */,
 				AB39F60E1B59482A005267D8 /* ReadingList.storyboard */,
 				AB39F5F51B594758005267D8 /* Images.xcassets */,
 				AB39F5F71B594758005267D8 /* LaunchScreen.xib */,
@@ -326,6 +329,7 @@
 				AB39F6601B5984AF005267D8 /* Author.swift in Sources */,
 				AB39F6761B5984AF005267D8 /* ReadingList.swift in Sources */,
 				AB39F6111B597CB3005267D8 /* ReadingListController.swift in Sources */,
+				AB39F6791B599B7A005267D8 /* ViewBookController.swift in Sources */,
 				AB39F6751B5984AF005267D8 /* ModelObject.swift in Sources */,
 				AB39F5EF1B594758005267D8 /* AppDelegate.swift in Sources */,
 			);
